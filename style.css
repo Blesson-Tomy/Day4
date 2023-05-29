@@ -53,29 +53,32 @@
     
   }
   p{
-    text-indent: 15px;
+    text-indent: 20px;
     font-family: 'Poppins', sans-serif;
   }
 
   nav li{
     color: white;
-    border: 1px solid pink;
+    border: 1px solid #a66;
     text-align: center;
     text-decoration:none;
     margin: 10px;
     padding-top: 15px;
     padding-bottom: 15px;
-
-
   }
 
   nav a{
-    color: rgb(241, 91, 116);
+    color: #a66;
     text-decoration: none;
   }
 
+  nav a:hover{
+    color: blue;
+    font-size: 1.25em;
+  }
+
   a{
-    color: rgb(241, 91, 116);
+    color: #a66;
     font-family: 'Poppins', sans-serif;
   }
 
@@ -85,18 +88,19 @@
 
   a:hover{
     text-decoration: none;
-  }
-
-  a:visited{
     color: blue;
   }
 
-  a:active{
-    font-size: 1.25em;
-  }
+ 
+
 
 i {
     /* The icon can be a SVG or image file */
     content: url(assets/external-link-52.png);
     font-size: 7px;
 }
+
+.fa{
+  width: 20px;
+}
+
