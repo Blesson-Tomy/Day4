@@ -49,10 +49,12 @@
   h1{
     text-align: center;
     letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
     
   }
   p{
-    text-indent: 5px;
+    text-indent: 15px;
+    font-family: 'Poppins', sans-serif;
   }
 
   nav li{
@@ -71,3 +73,30 @@
     color: rgb(241, 91, 116);
     text-decoration: none;
   }
+
+  a{
+    color: rgb(241, 91, 116);
+    font-family: 'Poppins', sans-serif;
+  }
+
+  ul, ol{
+    font-family: 'Poppins', sans-serif;
+  }
+
+  a:hover{
+    text-decoration: none;
+  }
+
+  a:visited{
+    color: blue;
+  }
+
+  a:active{
+    font-size: 1.25em;
+  }
+
+i {
+    /* The icon can be a SVG or image file */
+    content: url(assets/external-link-52.png);
+    font-size: 7px;
+}
